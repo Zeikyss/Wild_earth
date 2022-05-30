@@ -20,7 +20,7 @@ if(!empty($_POST)){
     header('location: moncompte.php');
 }
 
-$title = 'Edition';
+$title = 'Edition du profil';
 require 'includes/header.php';
 
 ?> 
