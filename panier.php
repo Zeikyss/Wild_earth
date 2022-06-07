@@ -52,7 +52,7 @@ if (!$erreur){
          break;
    }
 }
-$title = 'Panier';
+$title = 'Panier - Wild Earth';
 require 'includes/header.php';
 echo '<?xml version="1.0" encoding="utf-8"?>';?>
 <div class="head_panier">

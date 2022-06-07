@@ -1,5 +1,5 @@
 <?php
-$title = 'Accueil';
+$title = 'Accueil - Wild Earth';
 require 'includes/fonctions/fonction_categorie.php';
 $cates = getCate();
 require 'includes/header.php';

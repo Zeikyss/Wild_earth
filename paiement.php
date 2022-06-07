@@ -1,10 +1,12 @@
 <?php
-$title = 'Paiement';
+$title = 'Paiement - Wild Earth';
 require 'includes/header.php';
 ?>
+<div class="head_panier">
+   <h1>Confirmation de Paiement</h1>
+</div>
 <div class="space"></div>
-<h2>Confirmation d'achat</h2>
-<div class="space"></div>
+
 <div class="paiement">
     <form action="" method="POST">
         <div class="champ">

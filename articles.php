@@ -1,5 +1,5 @@
 <?php
-$title = 'Articles';
+$title = 'Articles - Wild Earth';
 require 'includes/fonctions/fonction_categorie.php';
 $articles = getArt($_GET['categorie']);
 require 'includes/header.php';

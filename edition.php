@@ -20,14 +20,15 @@ if(!empty($_POST)){
     header('location: moncompte.php');
 }
 
-$title = 'Edition du profil';
+$title = 'Edition du profil - Wild Earth';
 require 'includes/header.php';
 
-?> 
+?>
 
 <section id="gestion">
     <div class="space"></div>
         <h1>Editer mes informations</h1>
+        <div class="space"></div>
         <div class="edit">
             <form action="" method="POST">
                 <div class="champ">

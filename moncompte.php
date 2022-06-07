@@ -10,7 +10,7 @@ $req->execute(array(
 $result = $req->fetch(PDO::FETCH_ASSOC);
 $profil = $result['id'];
 
-$title = 'Mon Compte';
+$title = 'Mon Compte - Wild Earth';
 require 'includes/header.php';
 
 ?> 

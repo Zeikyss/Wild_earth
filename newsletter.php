@@ -1,5 +1,5 @@
 <?php
-$title = 'Newsletters';
+$title = 'Newsletters - Wild Earth';
 require 'includes/fonctions/fonction_newsletters.php';
 $newsletters = getNewsletters();
 require 'includes/header.php';

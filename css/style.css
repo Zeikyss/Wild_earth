@@ -468,6 +468,22 @@ header .titre p{
     border: 2px solid black;
 }
 /*----- PAIEMENT -----*/
+.head_paiement{
+    background-image: url(../assets/img/head_paiement.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+.head_paiement h1{
+    text-align: center;
+    position: relative;
+    top: 110px;
+    color: #F4F9F4;
+    text-shadow: -3px 0 5px rgb(20, 20, 20), 0 3px 5px rgb(20, 20, 20),
+    3px 0 5px rgb(20, 20, 20), 0 -3px 5px rgb(20, 20, 20);
+    font-size: 80px;
+    margin-bottom: 0;
+}
 .paiement form{
     width: 40%;
     margin: 0 auto;

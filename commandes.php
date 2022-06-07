@@ -5,7 +5,7 @@ require 'includes/bdd.php';
 
 
 
-$title = 'Mon Compte';
+$title = 'Mon Compte - Wild Earth';
 require 'includes/header.php';
 
 ?> 

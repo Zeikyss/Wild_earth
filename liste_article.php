@@ -1,5 +1,5 @@
 <?php
-$title = 'Articles';
+$title = 'Articles - Wild Earth';
 require 'includes/header.php';
 ?> 
 

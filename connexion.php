@@ -1,5 +1,5 @@
 <?php
-$title = 'Connexion';
+$title = 'Connexion - Wild Earth';
 $errors = null;
 $error = null;
 require 'includes/fonctions/fonction_connexion.php';

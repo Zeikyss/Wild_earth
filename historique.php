@@ -5,7 +5,7 @@ require 'includes/bdd.php';
 
 
 
-$title = 'Mon Historique';
+$title = 'Mon Historique - Wild Earth';
 require 'includes/header.php';
 
 ?> 
