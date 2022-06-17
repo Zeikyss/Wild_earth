@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: #F4F9F4;
+body{ 
     font-family: 'Montserrat', sans-serif;
+    background-color: #F4F9F4;
+    background-image: url(../assets/img/little-pluses.png);
 }
+
 a{
     text-decoration: none;
     font-size: 20px;
@@ -257,8 +259,7 @@ header .titre p{
 }
 /*----- SECTION SERVICE -----*/
 #service{
-    padding: 50px;
-    
+    padding: 50px 0;
 }
 #service .contain{
     display: flex;
