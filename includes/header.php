@@ -10,8 +10,8 @@ if(!empty($_POST) and isset($_POST['deco'])){
     header("location: ./index.php");
     exit();
 }
-require 'fonctions/fonction_recherche.php';
 
+require 'fonctions/fonction_recherche.php';
 
 ?>
 

@@ -188,6 +188,10 @@ nav{
     padding: 10px;
     color: #F4F9F4;
 }
+.contact .find p{
+    text-align: center;
+    font-weight: 600;
+}
 .legal{
     display: flex;
     justify-content: space-around;

@@ -11,7 +11,8 @@
                 <a href="newsletter.php">La Newsletter</a>
             </div>
             <div class="find">
-                <h3>Nous trouver</h3>
+                <h3>Nous contacter</h3>
+                <p>wild-earth@gmail.com</p>
             </div>
         </div>
         <div class="legal">

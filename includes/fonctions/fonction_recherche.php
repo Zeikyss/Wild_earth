@@ -10,7 +10,7 @@ function getSearch(){
 
 function searchHTML(){
     return <<<HTML
-    <form action="./liste_article.php" method="GET">
+    <form action="" method="GET">
         <input type="search" name="s" placeholder="Rechercher">
         <input type="submit" name="envoyer">
     </form>  
