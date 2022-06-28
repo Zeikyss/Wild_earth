@@ -23,9 +23,10 @@
     </footer>
 
 
- <!-- JQUERY -->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
     <!-- JS -->
     <script src="./js/indexjs.js"></script>    
+    
 </body>
 </html>

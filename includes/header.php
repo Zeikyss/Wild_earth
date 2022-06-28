@@ -37,47 +37,47 @@ require 'fonctions/fonction_recherche.php';
         <div class="burger">
             <span></span>
         </div> 
-            <div class="first">
-                <div class="logo">
-                    <a href="index.php"><img src="./assets/img/logo.png" alt="">Wild Earth</a>
-                </div>
-                <div class="search">
-                    <?= searchHTML() ?>
-                </div>
-                <div class="compte">
-                    <?php if (!isset($_SESSION['user_identifiant'])) : ?>
-                    <div class="connect">
-                        <a href="connexion.php"><i class="fas fa-user"></i>Connexion</a>
-                    </div>
-                    <?php else : ?>
-                    <div class="user">
-                        <ul class="princ">
-                            <li class="hide"><a href="moncompte.php"><i class="fas fa-user"></i>Mon Compte</a>
-                                <ul class="sub">
-                                    <li><a href="commandes.php">Mes commandes</a></li>
-                                    <li><a href="historique.php">Mon historique</a></li>
-                                    
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    <?php endif ?>
-                    <?php if (!isset($_SESSION['user_identifiant'])) : ?>
-                        <a href="connexion.php"><i class="fas fa-shopping-basket"></i>Mon Panier</a>
-                    </div>
-                    <?php else : ?>
-                        <a href="panier.php"><i class="fas fa-shopping-basket"></i>Mon Panier</a>
-                    <?php endif ?>
-                    <?php if (isset($_SESSION['user_identifiant'])) : ?>
-                    <div class="deco">
-                        <form action="" method="POST">
-                            <button name="deco"><i class="fas fa-times"></i>Deconnexion</button>
-                        </form>
-                    </div>
-                    <?php endif ?>
-                </div>
+        <div class="first">
+            <div class="logo">
+                <a href="index.php"><img src="./assets/img/logo.png" alt="">Wild Earth</a>
             </div>
+            <div class="search">
+                <?= searchHTML() ?>
+            </div>
+            <div class="compte">
+                <?php if (!isset($_SESSION['user_identifiant'])) : ?>
+                <div class="connect">
+                    <a href="connexion.php"><i class="fas fa-user"></i>Connexion</a>
+                </div>
+                <?php else : ?>
+                <div class="user">
+                    <ul class="princ">
+                        <li class="hide"><a href="moncompte.php"><i class="fas fa-user"></i>Mon Compte</a>
+                            <ul class="sub">
+                                <li><a href="commandes.php">Mes commandes</a></li>
+                                <li><a href="historique.php">Mon historique</a></li>
+                                    
+                            </ul>
+                        </li>
+                     </ul>
+                </div>
+                    
+                <?php endif ?>
+                <?php if (!isset($_SESSION['user_identifiant'])) : ?>
+                    <a href="connexion.php"><i class="fas fa-shopping-basket"></i>Mon Panier</a>
+                </div>
+                <?php else : ?>
+                    <a href="panier.php"><i class="fas fa-shopping-basket"></i>Mon Panier</a>
+                <?php endif ?>
+                <?php if (isset($_SESSION['user_identifiant'])) : ?>
+                <div class="deco">
+                    <form action="" method="POST">
+                        <button name="deco"><i class="fas fa-times"></i>Deconnexion</button>
+                    </form>
+                </div>
+                <?php endif ?>
+            </div>
+        </div>
         <div class="menu">    
             <div class="second">
                 <ul>
