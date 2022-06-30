@@ -8,7 +8,7 @@ require 'includes/header.php';
 <header>
     <div class="titre">
         <h1>WILD EARTH</h1>
-        <p>La mode sauvage</s></p>
+        <p>La mode sauvage</p>
     </div>
 </header>
 <div class="space"></div>

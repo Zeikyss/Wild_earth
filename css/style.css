@@ -173,15 +173,15 @@ nav{
     transform: scale(1.1);
     color: #F4F9F4;
 }
-.contact .lien{
+.contact .actu{
     text-align: center;
 }
-.contact .lien a{
+.contact .actu a{
     font-weight: 600;
     transition: .5s;
     border: 5px solid transparent;
 }
-.contact .lien a:hover{
+.contact .actu a:hover{
     transition: .5s;
     border: 5px solid #F4F9F4;
     border-radius: 25px;
@@ -288,8 +288,6 @@ header .titre p{
     font-size: 26px;
 }
 
-
-
 /*---------- CONNEXION / INSCRIPTION ----------*/
 .form{
     display: flex;
@@ -365,7 +363,6 @@ header .titre p{
     font-size: 80px;
     margin-bottom: 0;
 }
-
 #compte .container{
     display: flex;
     margin: 50px;
@@ -776,6 +773,20 @@ header .titre p{
     .head{
         height: 400px;
     }
+    .img_art{
+        width: 90%;
+        text-align: center;
+    }
+    .img_art img{
+        max-width: 80%;
+        
+    }
+    .form hr{
+        display: none;
+    }
+    .head_panier h1{
+        font-size: 60px;
+    }
 }    
 
 /* ------------------------------------------------------------------------- */
@@ -790,5 +801,23 @@ header .titre p{
     }
     .head{
         height: 300px;
+    }
+    .head_panier h1{
+        font-size: 50px;
+    }
+    .colonne td{
+        font-size: 20px;
+    }
+}  
+
+/* ------------------------------------------------------------------------- */
+/* ----------------------------------------------MEDIA QUERIES 400px ---- */
+/* ------------------------------------------------------------------------- */
+@media screen and (max-width: 400px) {
+    .panier a{
+        font-size: 16px;
+    }
+    .colonne td{
+        font-size: 14px;
     }
 }  

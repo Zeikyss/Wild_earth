@@ -89,7 +89,6 @@ return <<<HTML
     <h1>$article->art_nom</h1>
     <div class="space"></div>
     <div class="art_det">
-
         <div class="img_art">
             <img src="$url" alt="">
         </div>    

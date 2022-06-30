@@ -18,4 +18,4 @@ require 'includes/header.php';
 <!---------- FOOTER -->
 <?php
 require 'includes/footer.php'
-?>  
+?>

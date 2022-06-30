@@ -12,7 +12,7 @@
             </div>
             <div class="find">
                 <h3>Nous contacter</h3>
-                <p>wild-earth@gmail.com</p>
+                <a href="mailto:wild-earth@gmail.com">wild-earth@gmail.com</a>
             </div>
         </div>
         <div class="legal">

@@ -52,16 +52,14 @@ require 'fonctions/fonction_recherche.php';
                 <?php else : ?>
                 <div class="user">
                     <ul class="princ">
-                        <li class="hide"><a href="moncompte.php"><i class="fas fa-user"></i>Mon Compte</a>
+                        <li><a href="moncompte.php"><i class="fas fa-user"></i>Mon Compte</a>
                             <ul class="sub">
                                 <li><a href="commandes.php">Mes commandes</a></li>
-                                <li><a href="historique.php">Mon historique</a></li>
-                                    
+                                <li><a href="historique.php">Mon historique</a></li>  
                             </ul>
                         </li>
                      </ul>
                 </div>
-                    
                 <?php endif ?>
                 <?php if (!isset($_SESSION['user_identifiant'])) : ?>
                     <a href="connexion.php"><i class="fas fa-shopping-basket"></i>Mon Panier</a>

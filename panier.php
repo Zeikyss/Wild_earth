@@ -61,7 +61,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';?>
 <div class="space"></div>
 <div class="panier">
 <form method="post" action="panier.php">
-<table style="width: 400px">
+<table style="max-width: 90%">
     <tr class="colonne">
         <td>Nom</td>
         <td>Quantité</td>
