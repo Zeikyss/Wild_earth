@@ -6,12 +6,10 @@ $(document).ready(function(){
         $('.burger').click(function() {
             $(this).toggleClass('burger-open');
             $('.menu').toggleClass('is-open');
-            return false;
         });
-        $('.menu ul li a').click(function(event) {
+        $('.menu ul li a').click(function() {
             $('.menu').toggleClass('is-open');
             $('.burger').toggleClass('burger-open');
-            event.stopPropagation();
         });
 
 });        

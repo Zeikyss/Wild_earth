@@ -6,7 +6,7 @@
                 <a href=""><i class="fab fa-instagram"></i></a>
                 <a href=""><i class="fab fa-twitter-square"></i></a>
             </div>
-            <div class="lien">
+            <div class="actu">
                 <h3>Nos actualités</h3>
                 <a href="newsletter.php">La Newsletter</a>
             </div>
