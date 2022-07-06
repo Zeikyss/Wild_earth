@@ -33,7 +33,6 @@ function testConnexion(array $post): bool
 function getInscriptionErrors(array $post): ?array
 {
     $errors = [];
-
     if (empty($post['user_identifiant'])) {
         $errors['id'] = 'Identifiant requis';
     } elseif (strlen($post['user_identifiant']) < 3) {
@@ -41,31 +40,25 @@ function getInscriptionErrors(array $post): ?array
     } elseif (strlen($post['user_identifiant']) > 20) {
         $errors['id'] = 'Identifiant trop long';
     }
-
     if (!empty($post['user_firstname']) && strlen($post['user_firstname']) > 20) {
         $errors['name'] = "Prenom trop long";
     }
-
     if (!empty($post['user_lastname']) && strlen($post['user_lastname']) > 20) {
         $errors['lastname'] = "Nom trop long";
     }
-
     if (empty($post['user_email'])) {
         $errors['email'] = 'Email requis';
     } elseif (!filter_var($post['user_email'], FILTER_VALIDATE_EMAIL)) {
         $errors['email'] = 'Email invalide';
     }
-
     if (empty($post['user_password'])) {
         $errors['password'] = 'Mot de passe requis';
     } elseif (strlen($post['user_password']) < 6) {
         $errors['password'] = 'Mot de passe trop court (6 charactere mini)';
     }
-
     if (($post['user_password']) != ($post['conf_password'])) {
         $errors['confirmation'] = 'Confirmation mot de passe incorrecte';
     }
-
     if (empty($errors)) {
         require 'includes/bdd.php';
         $req = $pdo->prepare("SELECT * FROM user WHERE user_identifiant = ? OR user_email = ? ");
@@ -81,7 +74,6 @@ function getInscriptionErrors(array $post): ?array
             $error['email'] = 'Email déjà enregistré';
         }
     }
-
     return $errors;
 }
 
@@ -94,7 +86,8 @@ function exe_inscription(array $post): void
     if (!isset($post['user_kind'])) {
         $post['user_kind'] = 2;
     }
-    $req = $pdo->prepare("INSERT INTO user (user_identifiant, user_firstname, user_lastname, user_email, user_password, user_kind) VALUES (:user_identifiant, :user_firstname, :user_lastname, :user_email, :user_password, :user_kind)");
+    $req = $pdo->prepare("INSERT INTO user (user_identifiant, user_firstname, user_lastname, user_email, user_password, user_kind) 
+    VALUES (:user_identifiant, :user_firstname, :user_lastname, :user_email, :user_password, :user_kind)");
     $req->execute([
         'user_identifiant' => $post['user_identifiant'],
         'user_firstname' => $user_firstname,
